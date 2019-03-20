@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<link rel="stylesheet" href="../assets/CSS/style.css">
+
+<title>Unit-4-Game</title>
+</head>
+
+<body>
+
+    <!-- HTML Portion -->
+    <!-- create div container for each section -->
+    <!-- - need one for "crystal collector" 
+         - need one for text
+         - need one to display the sum 
+         - need one for to display the wins and losses
+         - a row to display the crystals
+         - need one to display your score
+         - need one to display the object number-->
+
+
+         <div class= containerTitle>
+    
+                <h1>Pokemon Collector!</h1>
+                
+            </div>
+                <!--User output categories -->
+                <div class = containerDirections>
+                    <!-- first establish the initial title -->
+                    <h3 id="directions"><p> 
+                        You will be given a random number at the start of the game.
+                        </p><br>
+                        <p>There are four crystals below. By clicking on a crystal you will add a specifc amount of points to your total score.
+                        </p><br>
+                        <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+                        </p><br>
+                        <p>The value of each crystal is hidden from you until you click on it.
+                        </p><br>
+                        <p>Each time when the game starts, the game will chnge the values of each crystal. 
+                        </p></h3>
+                     <!-- id="Title">Can You Guess What Letter I Am Thinking Of?</h3> -->
+                    <br>
+                    <ul>
+                        <div class= "winsAndLosses">    
+                            <p id="wins"> Wins: </p>
+                            <br>
+                            <p id="losses"> Losses: </p>
+                        </div><br>
+                        <div class="numToGetContainer">
+                            <p id="numToGet">Whatever random number that generates</p>
+                        </div><br>
+                            <div class="pokemonButtons">
+                                    <div id="pikachu"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08aea422-eab9-428b-82c9-9c04e411bb8c/dbf717d-f8a7bdee-80ab-419f-accc-844898bc013c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA4YWVhNDIyLWVhYjktNDI4Yi04MmM5LTljMDRlNDExYmI4Y1wvZGJmNzE3ZC1mOGE3YmRlZS04MGFiLTQxOWYtYWNjYy04NDQ4OThiYzAxM2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jzyVx_OHyZl45ukxgLrCW7-wo32RUpSUBx7gPt71QVU" alt="pikachu" width="100" height="100"></div>
+                                    <div id="squirtle"><img src="https://www.tattoofun.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/q/squirtle_sm.jpg" alt="squirtle" width="100" height="100"></div>
+                                    <div id="bulbasaur"><img src="https://static.pokemonpets.com/images/monsters-images-300-300/1-Bulbasaur.png" alt="bulbasaur" width="100" height="100"></div>  
+                                    <div id="charmander"><img src="https://miro.medium.com/max/424/1*Hxptm5gIRc3HyYXzw5nfpw.png" alt="charmander" width="100" height="100"></div>
+                            </div>
+                        <div class="yourScoreContainer">      
+                            <p id="yourScore"> Your Total Score is:</p>
+                        </div><br>
+                        <div class="pointsCalculationsContainer">
+                            <p id="pointsCalculator"></p>
+                        </div>
+
+                    </ul>
+                </div>
+            
+            </body>
+            
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #cccccc;
+}
+.winsAndLosses {
+    border: solid #2d70b7;
+    background-color: gold;
+    opacity: 0.6;
+    color: #2d70b7;
+}
+.containerTitle{
+    border: solid #2d70b7;
+    background-color: gold;
+    color: #2d70b7;
+   
+}
+#bulbasaur{
+    background-color: white;
+    background-size: 50px 50px;
+}
+#directions {
+    border: solid #2d70b7;
+    background-color: gold;
+    color: #2d70b7;
+
+}
+#yourScore {
+    border: solid #2d70b7;
+    background-color: gold;
+    color: #2d70b7;
+}
+#numToGet {
+    border: solid #2d70b7;
+    background-color: gold;
+    color: #2d70b7;
+}
+#pointsCalculator {
+    border: solid #2d70b7;
+    background-color: gold;
+    color: #2d70b7;
+}

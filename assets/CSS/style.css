@@ -7,7 +7,7 @@ body{
 .winsAndLosses {
     border: solid #2d70b7;
     background-color: gold;
-    opacity: 0.6;
+    opacity: 0.7;
     color: #2d70b7;
 }
 .containerTitle{
@@ -18,12 +18,13 @@ body{
 }
 #bulbasaur{
     background-color: white;
-    background-size: 50px 50px;
+    background-size: 40px 40px;
 }
 #directions {
     border: solid #2d70b7;
     background-color: gold;
     color: #2d70b7;
+    opacity: 0.7;
 
 }
 #yourScore {

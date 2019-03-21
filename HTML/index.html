@@ -35,33 +35,32 @@
                     <h3 id="directions"><p> 
                         You will be given a random number at the start of the game.
                         </p><br>
-                        <p>There are four crystals below. By clicking on a crystal you will add a specifc amount of points to your total score.
+                        <p>There are four Pokemons below. By clicking on a Pokemon you will add a specifc amount of Damage points to your total damage score.
                         </p><br>
-                        <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+                        <p>You win the game by matching your total damage score to the random number, you lose the game if your total damage score goes above the random number.
                         </p><br>
-                        <p>The value of each crystal is hidden from you until you click on it.
+                        <p>The damage value of each Pokemon is hidden from you until you click on it.
                         </p><br>
-                        <p>Each time when the game starts, the game will chnge the values of each crystal. 
+                        <p>Each time when the game starts, the game will change the damage values of each Pokemon. 
                         </p></h3>
-                     <!-- id="Title">Can You Guess What Letter I Am Thinking Of?</h3> -->
                     <br>
                     <ul>
                         <div class= "winsAndLosses">    
-                            <p id="wins"> Wins: </p>
+                            <p id="wins"> Wins: 0 </p>
                             <br>
-                            <p id="losses"> Losses: </p>
+                            <p id="losses"> Losses: 0</p>
                         </div><br>
                         <div class="numToGetContainer">
-                            <p id="numToGet">Whatever random number that generates</p>
+                            <p id="numToGet">...</p>
                         </div><br>
                             <div class="pokemonButtons">
-                                    <div id="pikachu"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08aea422-eab9-428b-82c9-9c04e411bb8c/dbf717d-f8a7bdee-80ab-419f-accc-844898bc013c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA4YWVhNDIyLWVhYjktNDI4Yi04MmM5LTljMDRlNDExYmI4Y1wvZGJmNzE3ZC1mOGE3YmRlZS04MGFiLTQxOWYtYWNjYy04NDQ4OThiYzAxM2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jzyVx_OHyZl45ukxgLrCW7-wo32RUpSUBx7gPt71QVU" alt="pikachu" width="100" height="100"></div>
-                                    <div id="squirtle"><img src="https://www.tattoofun.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/q/squirtle_sm.jpg" alt="squirtle" width="100" height="100"></div>
-                                    <div id="bulbasaur"><img src="https://static.pokemonpets.com/images/monsters-images-300-300/1-Bulbasaur.png" alt="bulbasaur" width="100" height="100"></div>  
-                                    <div id="charmander"><img src="https://miro.medium.com/max/424/1*Hxptm5gIRc3HyYXzw5nfpw.png" alt="charmander" width="100" height="100"></div>
+                                <div id="pikachu" class="btn"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08aea422-eab9-428b-82c9-9c04e411bb8c/dbf717d-f8a7bdee-80ab-419f-accc-844898bc013c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA4YWVhNDIyLWVhYjktNDI4Yi04MmM5LTljMDRlNDExYmI4Y1wvZGJmNzE3ZC1mOGE3YmRlZS04MGFiLTQxOWYtYWNjYy04NDQ4OThiYzAxM2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jzyVx_OHyZl45ukxgLrCW7-wo32RUpSUBx7gPt71QVU" alt="pikachu" width="100" height="100"></div>
+                                <div id="squirtle" class="btn"><img src="https://www.tattoofun.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/q/squirtle_sm.jpg" alt="squirtle" width="100" height="100"></div>
+                                <div id="bulbasaur" class="btn"><img src="https://static.pokemonpets.com/images/monsters-images-300-300/1-Bulbasaur.png" alt="bulbasaur" width="100" height="100"></div>  
+                                <div id="charmander" class="btn"><img src="https://miro.medium.com/max/424/1*Hxptm5gIRc3HyYXzw5nfpw.png" alt="charmander" width="100" height="100"></div>
                             </div>
                         <div class="yourScoreContainer">      
-                            <p id="yourScore"> Your Total Score is:</p>
+                            <p id="yourScore"> Your Total Damage Score is:</p>
                         </div><br>
                         <div class="pointsCalculationsContainer">
                             <p id="pointsCalculator"></p>
@@ -71,13 +70,69 @@
                 </div>
             
             </body>
+
+            <!-- JQuery -->
+            <!-- 
+                1. variables counters
+                  - wins
+                  -losses
+                  - total
+                  - cpu Number
+                    - 
+                2. take each counter at a time 
+                    - display random score you want to match -->
+
+      
             
+        
+                <!-- Script -->
+            <script type="text/javascript">
+
+                var displayNumbers = {
+                    wins: 0,
+                    losses: 0,
+                    total: 0,
+                    cpuNumber: 0
+                }
+       
+ // <------------------------------Functions------------------------------------------->
+
+
+            // $(document).ready(function() {
+                let cpuNumber = Math.floor(Math.random() * 119)+1;
+                    document.getElementById("numToGet").innerHTML = "Damage: " + cpuNumber;
+                        console.log(cpuNumber);
+                
+                let pikachuRandomNumber = Math.floor(Math.random() * 12)+1;
+                    console.log("Pikachu dealt: " + pikachuRandomNumber + " damage");
+
+                    
+
+                // $("#numToGet").html(cpuNumber);
+                //     console.log("CPU picked Number: " + cpuNumber);
+                    
+                    /*
+                            - display wins and losses go up everytime
+                            - display your total score from playing
+                            - display sum of points you are trying to match to
+                    */
+                    /* 3. random number generator
+                            - random number generator for each pokemon every turn
+                            - random number generator for goal number
+                     */
+                            
+                    
+                    
+                    /* tip: create call function where you want it executed,THEN create the actual function underneath */
+                    
+   
+                
 
 
 
+            // });
 
-
-
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
